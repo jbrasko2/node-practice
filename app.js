@@ -4,9 +4,15 @@ function sayHello(name) {
 
 sayHello('Jordan')
 
-// global (belong to window object)
+// global (belong to window object, global in node)
 // console.log(); 
 // setTimeout();
 // clearTimeout();
 // setInterval(); 
 // clearInterval();
+
+// non-node
+// window.console.log()
+
+// node
+// global.console.log()
