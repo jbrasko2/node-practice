@@ -1,9 +1,9 @@
-function sayHello(name) {
-    console.log('Hello ' + name)
-}
+// function sayHello(name) {
+//     console.log('Hello ' + name)
+// }
 
 // sayHello('Jordan')
-console.log(module)
+// console.log(module)
 
 // global (belong to window object, global in node)
 // console.log(); 
@@ -21,3 +21,8 @@ console.log(module)
 // variables do not belong to global object, only scoped to current file
 // var message = "hello";
 // console.log(global.message) returns undefined
+
+// load module
+var logger = require('./logger')
+
+logger.log('message');
