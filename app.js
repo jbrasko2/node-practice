@@ -23,6 +23,6 @@
 // console.log(global.message) returns undefined
 
 // load module
-const logger = require('./logger');
+const log = require('./logger');
 
-logger.log('message');
+log('message');

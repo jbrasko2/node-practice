@@ -6,7 +6,7 @@ function log(message) {
 }
 
 // add log method to exports object, setting it to log function
-module.exports.log = log;
+module.exports = log;
 
 // add url variable to exports object
 // module.exports.url = url;
