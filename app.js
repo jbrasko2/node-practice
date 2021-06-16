@@ -3,3 +3,10 @@ function sayHello(name) {
 }
 
 sayHello('Jordan')
+
+// global (belong to window object)
+// console.log(); 
+// setTimeout();
+// clearTimeout();
+// setInterval(); 
+// clearInterval();
