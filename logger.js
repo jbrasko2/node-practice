@@ -2,10 +2,9 @@ var url = 'http://mylogger.io/log';
 
 function log(message) {
     // send an HTTP request
-    console.log(message);
+    console.log(message)
 }
 
-// add log method to exports object, setting it to log function
 module.exports = log;
 
 // add url variable to exports object
