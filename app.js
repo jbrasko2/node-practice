@@ -2,7 +2,8 @@ function sayHello(name) {
     console.log('Hello ' + name)
 }
 
-sayHello('Jordan')
+// sayHello('Jordan')
+console.log(module)
 
 // global (belong to window object, global in node)
 // console.log(); 
@@ -17,6 +18,6 @@ sayHello('Jordan')
 // node
 // global.console.log()
 
-// variables do not belong to global object
+// variables do not belong to global object, only scoped to current file
 // var message = "hello";
 // console.log(global.message) returns undefined
