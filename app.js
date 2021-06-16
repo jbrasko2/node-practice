@@ -16,3 +16,7 @@ sayHello('Jordan')
 
 // node
 // global.console.log()
+
+// variables do not belong to global object
+// var message = "hello";
+// console.log(global.message) returns undefined
